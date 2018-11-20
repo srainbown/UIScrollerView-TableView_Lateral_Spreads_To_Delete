@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040711B121A3F6D40079DEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711B021A3F6D40079DEC2 /* AppDelegate.m */; };
+		040711B421A3F6D40079DEC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711B321A3F6D40079DEC2 /* ViewController.m */; };
+		040711B721A3F6D40079DEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040711B521A3F6D40079DEC2 /* Main.storyboard */; };
+		040711B921A3F6D90079DEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040711B821A3F6D90079DEC2 /* Assets.xcassets */; };
+		040711BC21A3F6D90079DEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */; };
+		040711BF21A3F6D90079DEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711BE21A3F6D90079DEC2 /* main.m */; };
+		040711C921A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711C821A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m */; };
+		040711D421A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711D321A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040711C521A3F6D90079DEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040711A421A3F6D40079DEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040711AB21A3F6D40079DEC2;
+			remoteInfo = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+		};
+		040711D021A3F6D90079DEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040711A421A3F6D40079DEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040711AB21A3F6D40079DEC2;
+			remoteInfo = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040711AC21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollerView+TableView_Lateral_Spreads_To_Delete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040711AF21A3F6D40079DEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040711B021A3F6D40079DEC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040711B221A3F6D40079DEC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040711B321A3F6D40079DEC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040711B621A3F6D40079DEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040711B821A3F6D90079DEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040711BB21A3F6D90079DEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040711BD21A3F6D90079DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040711BE21A3F6D90079DEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040711C421A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040711C821A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m; sourceTree = "<group>"; };
+		040711CA21A3F6D90079DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040711CF21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040711D321A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m; sourceTree = "<group>"; };
+		040711D521A3F6D90079DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040711A921A3F6D40079DEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711C121A3F6D90079DEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711CC21A3F6D90079DEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040711A321A3F6D40079DEC2 = {
+			isa = PBXGroup;
+			children = (
+				040711AE21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */,
+				040711C721A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests */,
+				040711D221A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests */,
+				040711AD21A3F6D40079DEC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040711AD21A3F6D40079DEC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040711AC21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete.app */,
+				040711C421A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests.xctest */,
+				040711CF21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040711AE21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */ = {
+			isa = PBXGroup;
+			children = (
+				040711AF21A3F6D40079DEC2 /* AppDelegate.h */,
+				040711B021A3F6D40079DEC2 /* AppDelegate.m */,
+				040711B221A3F6D40079DEC2 /* ViewController.h */,
+				040711B321A3F6D40079DEC2 /* ViewController.m */,
+				040711B521A3F6D40079DEC2 /* Main.storyboard */,
+				040711B821A3F6D90079DEC2 /* Assets.xcassets */,
+				040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */,
+				040711BD21A3F6D90079DEC2 /* Info.plist */,
+				040711BE21A3F6D90079DEC2 /* main.m */,
+			);
+			path = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			sourceTree = "<group>";
+		};
+		040711C721A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				040711C821A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m */,
+				040711CA21A3F6D90079DEC2 /* Info.plist */,
+			);
+			path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests";
+			sourceTree = "<group>";
+		};
+		040711D221A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040711D321A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m */,
+				040711D521A3F6D90079DEC2 /* Info.plist */,
+			);
+			path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040711AB21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040711D821A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_Delete" */;
+			buildPhases = (
+				040711A821A3F6D40079DEC2 /* Sources */,
+				040711A921A3F6D40079DEC2 /* Frameworks */,
+				040711AA21A3F6D40079DEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			productName = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			productReference = 040711AC21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040711C321A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040711DB21A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests" */;
+			buildPhases = (
+				040711C021A3F6D90079DEC2 /* Sources */,
+				040711C121A3F6D90079DEC2 /* Frameworks */,
+				040711C221A3F6D90079DEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040711C621A3F6D90079DEC2 /* PBXTargetDependency */,
+			);
+			name = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests";
+			productName = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests";
+			productReference = 040711C421A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040711CE21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040711DE21A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests" */;
+			buildPhases = (
+				040711CB21A3F6D90079DEC2 /* Sources */,
+				040711CC21A3F6D90079DEC2 /* Frameworks */,
+				040711CD21A3F6D90079DEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040711D121A3F6D90079DEC2 /* PBXTargetDependency */,
+			);
+			name = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests";
+			productName = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests";
+			productReference = 040711CF21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040711A421A3F6D40079DEC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Woodsoo;
+				TargetAttributes = {
+					040711AB21A3F6D40079DEC2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					040711C321A3F6D90079DEC2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 040711AB21A3F6D40079DEC2;
+					};
+					040711CE21A3F6D90079DEC2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 040711AB21A3F6D40079DEC2;
+					};
+				};
+			};
+			buildConfigurationList = 040711A721A3F6D40079DEC2 /* Build configuration list for PBXProject "UIScrollerView+TableView_Lateral_Spreads_To_Delete" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040711A321A3F6D40079DEC2;
+			productRefGroup = 040711AD21A3F6D40079DEC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040711AB21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */,
+				040711C321A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests */,
+				040711CE21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040711AA21A3F6D40079DEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040711BC21A3F6D90079DEC2 /* LaunchScreen.storyboard in Resources */,
+				040711B921A3F6D90079DEC2 /* Assets.xcassets in Resources */,
+				040711B721A3F6D40079DEC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711C221A3F6D90079DEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711CD21A3F6D90079DEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040711A821A3F6D40079DEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040711B421A3F6D40079DEC2 /* ViewController.m in Sources */,
+				040711BF21A3F6D90079DEC2 /* main.m in Sources */,
+				040711B121A3F6D40079DEC2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711C021A3F6D90079DEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040711C921A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040711CB21A3F6D90079DEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040711D421A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040711C621A3F6D90079DEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040711AB21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */;
+			targetProxy = 040711C521A3F6D90079DEC2 /* PBXContainerItemProxy */;
+		};
+		040711D121A3F6D90079DEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040711AB21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */;
+			targetProxy = 040711D021A3F6D90079DEC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040711B521A3F6D40079DEC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040711B621A3F6D40079DEC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040711BB21A3F6D90079DEC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040711D621A3F6D90079DEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040711D721A3F6D90079DEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040711D921A3F6D90079DEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_Delete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-Delete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040711DA21A3F6D90079DEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_Delete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-Delete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040711DC21A3F6D90079DEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-DeleteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollerView+TableView_Lateral_Spreads_To_Delete.app/UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			};
+			name = Debug;
+		};
+		040711DD21A3F6D90079DEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-DeleteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollerView+TableView_Lateral_Spreads_To_Delete.app/UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			};
+			name = Release;
+		};
+		040711DF21A3F6D90079DEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-DeleteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			};
+			name = Debug;
+		};
+		040711E021A3F6D90079DEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				INFOPLIST_FILE = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.woodsoo.www.UIScrollerView-TableView-Lateral-Spreads-To-DeleteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIScrollerView+TableView_Lateral_Spreads_To_Delete";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040711A721A3F6D40079DEC2 /* Build configuration list for PBXProject "UIScrollerView+TableView_Lateral_Spreads_To_Delete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711D621A3F6D90079DEC2 /* Debug */,
+				040711D721A3F6D90079DEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040711D821A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_Delete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711D921A3F6D90079DEC2 /* Debug */,
+				040711DA21A3F6D90079DEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040711DB21A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_DeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711DC21A3F6D90079DEC2 /* Debug */,
+				040711DD21A3F6D90079DEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040711DE21A3F6D90079DEC2 /* Build configuration list for PBXNativeTarget "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711DF21A3F6D90079DEC2 /* Debug */,
+				040711E021A3F6D90079DEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040711A421A3F6D40079DEC2 /* Project object */;
+}
