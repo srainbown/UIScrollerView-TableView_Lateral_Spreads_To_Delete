@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyScrollView.h
 //  UIScrollerView+TableView_Lateral_Spreads_To_Delete
 //
 //  Created by mac on 20/11/2018.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MyScrollView : UIScrollView
 
 @end
 
+NS_ASSUME_NONNULL_END

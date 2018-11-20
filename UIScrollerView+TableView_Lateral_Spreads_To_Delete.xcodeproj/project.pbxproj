@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		040711B121A3F6D40079DEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711B021A3F6D40079DEC2 /* AppDelegate.m */; };
-		040711B421A3F6D40079DEC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711B321A3F6D40079DEC2 /* ViewController.m */; };
-		040711B721A3F6D40079DEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040711B521A3F6D40079DEC2 /* Main.storyboard */; };
 		040711B921A3F6D90079DEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040711B821A3F6D90079DEC2 /* Assets.xcassets */; };
 		040711BC21A3F6D90079DEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */; };
 		040711BF21A3F6D90079DEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711BE21A3F6D90079DEC2 /* main.m */; };
 		040711C921A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711C821A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteTests.m */; };
 		040711D421A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711D321A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m */; };
+		040711E521A3F73C0079DEC2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711E421A3F73C0079DEC2 /* HomeViewController.m */; };
+		040711E821A3F8AE0079DEC2 /* TheStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711E721A3F8AE0079DEC2 /* TheStoreViewController.m */; };
+		040711EB21A3F8C00079DEC2 /* GoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711EA21A3F8C00079DEC2 /* GoodsViewController.m */; };
+		040711EE21A3F8E60079DEC2 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711ED21A3F8E60079DEC2 /* VideoViewController.m */; };
+		040711F121A40D700079DEC2 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711F021A40D700079DEC2 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,6 @@
 		040711AC21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollerView+TableView_Lateral_Spreads_To_Delete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040711AF21A3F6D40079DEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		040711B021A3F6D40079DEC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040711B221A3F6D40079DEC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040711B321A3F6D40079DEC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		040711B621A3F6D40079DEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040711B821A3F6D90079DEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040711BB21A3F6D90079DEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040711BD21A3F6D90079DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,16 @@
 		040711CF21A3F6D90079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040711D321A3F6D90079DEC2 /* UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollerView_TableView_Lateral_Spreads_To_DeleteUITests.m; sourceTree = "<group>"; };
 		040711D521A3F6D90079DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040711E321A3F73C0079DEC2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		040711E421A3F73C0079DEC2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		040711E621A3F8AE0079DEC2 /* TheStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheStoreViewController.h; sourceTree = "<group>"; };
+		040711E721A3F8AE0079DEC2 /* TheStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheStoreViewController.m; sourceTree = "<group>"; };
+		040711E921A3F8C00079DEC2 /* GoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsViewController.h; sourceTree = "<group>"; };
+		040711EA21A3F8C00079DEC2 /* GoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsViewController.m; sourceTree = "<group>"; };
+		040711EC21A3F8E60079DEC2 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		040711ED21A3F8E60079DEC2 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		040711EF21A40D700079DEC2 /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		040711F021A40D700079DEC2 /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,10 @@
 		040711AE21A3F6D40079DEC2 /* UIScrollerView+TableView_Lateral_Spreads_To_Delete */ = {
 			isa = PBXGroup;
 			children = (
+				040711E221A3F7240079DEC2 /* View */,
+				040711E121A3F71C0079DEC2 /* Controller */,
 				040711AF21A3F6D40079DEC2 /* AppDelegate.h */,
 				040711B021A3F6D40079DEC2 /* AppDelegate.m */,
-				040711B221A3F6D40079DEC2 /* ViewController.h */,
-				040711B321A3F6D40079DEC2 /* ViewController.m */,
-				040711B521A3F6D40079DEC2 /* Main.storyboard */,
 				040711B821A3F6D90079DEC2 /* Assets.xcassets */,
 				040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */,
 				040711BD21A3F6D90079DEC2 /* Info.plist */,
@@ -130,6 +139,30 @@
 				040711D521A3F6D90079DEC2 /* Info.plist */,
 			);
 			path = "UIScrollerView+TableView_Lateral_Spreads_To_DeleteUITests";
+			sourceTree = "<group>";
+		};
+		040711E121A3F71C0079DEC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040711E321A3F73C0079DEC2 /* HomeViewController.h */,
+				040711E421A3F73C0079DEC2 /* HomeViewController.m */,
+				040711E621A3F8AE0079DEC2 /* TheStoreViewController.h */,
+				040711E721A3F8AE0079DEC2 /* TheStoreViewController.m */,
+				040711E921A3F8C00079DEC2 /* GoodsViewController.h */,
+				040711EA21A3F8C00079DEC2 /* GoodsViewController.m */,
+				040711EC21A3F8E60079DEC2 /* VideoViewController.h */,
+				040711ED21A3F8E60079DEC2 /* VideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040711E221A3F7240079DEC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040711EF21A40D700079DEC2 /* MyScrollView.h */,
+				040711F021A40D700079DEC2 /* MyScrollView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +270,6 @@
 			files = (
 				040711BC21A3F6D90079DEC2 /* LaunchScreen.storyboard in Resources */,
 				040711B921A3F6D90079DEC2 /* Assets.xcassets in Resources */,
-				040711B721A3F6D40079DEC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040711B421A3F6D40079DEC2 /* ViewController.m in Sources */,
+				040711F121A40D700079DEC2 /* MyScrollView.m in Sources */,
+				040711E821A3F8AE0079DEC2 /* TheStoreViewController.m in Sources */,
 				040711BF21A3F6D90079DEC2 /* main.m in Sources */,
+				040711EE21A3F8E60079DEC2 /* VideoViewController.m in Sources */,
 				040711B121A3F6D40079DEC2 /* AppDelegate.m in Sources */,
+				040711EB21A3F8C00079DEC2 /* GoodsViewController.m in Sources */,
+				040711E521A3F73C0079DEC2 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		040711B521A3F6D40079DEC2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040711B621A3F6D40079DEC2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		040711BA21A3F6D90079DEC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
